@@ -26,7 +26,7 @@
 
 1. Change the background color of the entire document to red
 2. Change the background color of just the "about me" portion to blue
-3. Change the font-style of the entire document to sans-serif
+3. Change the font-family of the entire document to sans-serif
 4. Add your nickname 
 5. Add your favorites
 6. Add your hometown
