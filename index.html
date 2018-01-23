@@ -9,42 +9,14 @@
 	</style>
 
 	<h1>About Me</h1>
-	  
+
 	<ul>
 		<li>Nickname: <span id="nickname"></span>
 		<li>Favorites:  <span id="favorites"></span>
 		<li>Hometown: <span id="hometown"></span>
 	</ul>
 
-	<script type="text/javascript">
-		//Selectors
-		var body = document.getElementsByTagName("BODY")[0];
-		var aboutMe = document.getElementsByTagName("H1")[0];
-		var nickname = document.getElementById("nickname");
-		var favorites = document.getElementById("favorites");
-		var hometown = document.getElementById("hometown");
-		var unorderedList = document.getElementsByTagName("UL")[0];
-		var listitem = document.getElementsByClassName("listitem")[0];
-		for(var i = 0; i < unorderedList.children.length; i++) {
-			if(unorderedList.children[i].tagName === "LI") {
-				unorderedList.children[i].className += "listitem";
-			}
-		}
-
-		//Added styles
-		body.style.backgroundColor = "red";
-		body.style.fontFamily = "sans-serif";
-		aboutMe.style.backgroundColor = "blue";
-		nickname.innerHTML = "Mylo";
-		favorites.innerHTML = "JavaScript & ice cream";
-		hometown.innerHTML = "Worcester";
-
-		// Add img tag
-		var img = document.createElement("img");
-		img.src = "https://avatars3.githubusercontent.com/u/1764391?v=3&s=200";
-		body.appendChild(img);
-		
-	</script>
+	<script type="text/javascript" src="js/index.js"></script>
 
 </body>
 </html>
